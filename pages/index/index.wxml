@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+<!--latitude北纬 23.117055306224895 longitude='113.2759952545166 '  显示在最顶层 -->
+<!-- controls属性名绑定控件 -->
+  <map id="ofo-map" latitude='{{latitude}}' longitude='{{longitude}} ' scale='16' show-location='show-location' controls='{{controls}}'/>
+ 
+</view>  
